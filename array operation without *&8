@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int multiply_by_8(int num) {
+    return num * 2 * 4;
+}
+
+int main() {
+    int num;
+    printf("Enter a number: ");
+    scanf("%d", &num);
+    printf("The result of multiplying %d by 8 is: %d\n", num, multiply_by_8(num));
+    return 0;
+}
